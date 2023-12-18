@@ -5,6 +5,7 @@ html {
 body {
   background-color: #f5f5f5;
   font-family: "Open Sans", sans-serif;
+  overflow: x-hidden;
 }
 
 .main-container {
@@ -24,9 +25,6 @@ body {
   width: 100%;
 }
 
-.container#texto {
-}
-
 header {
   background: #fff;
   display: block;
@@ -34,6 +32,7 @@ header {
   padding: 20px;
   width: 100%;
   border-bottom: 1px solid #254159;
+  max-width: calc( 100vw - 40px);
 }
 
 h1 {
@@ -107,7 +106,7 @@ section {
   float: left;
   font-size: 1.5rem; /* equivalente a 15px */
   padding: 20px;
-  width: 100%;
+  max-width: calc( 100vw - 40px);
 }
 
 section nav {
@@ -147,6 +146,7 @@ footer {
   float: left;
   padding: 20px;
   width: 100%;
+  max-width: calc( 100vw - 40px);
 }
 
 footer p {
